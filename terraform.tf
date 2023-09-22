@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "lidongwang"
+  # cloud {
+  #   organization = "lidongwang"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
